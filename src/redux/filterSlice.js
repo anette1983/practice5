@@ -18,4 +18,4 @@ export const { setFilter } = filterSlice.actions;
 
 export default filterSlice.reducer;
 
-export const filter = (state) => state.filter;
+export const filter = (state) => state.filter.filter;
